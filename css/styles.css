@@ -1,0 +1,41 @@
+#gallery-wrapper{
+    width: 90%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#first-row, #second-row, #third-row, #fourth-row, #fifth-row{
+    width: 100%;
+    position: relative;
+}
+
+#first-row{
+    margin-top: 30px;
+}
+
+.gallery-item{
+    float: left;    
+    width: 16%;
+    margin:  2% 2% 20px 2%;
+}
+
+.gallery-item h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery-item img{
+    max-width: 100%;
+    border-radius: 5px;
+    float: left;
+}
+
+.info{
+}
+
